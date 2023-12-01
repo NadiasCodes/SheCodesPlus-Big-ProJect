@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="src/cssweek2homework.css" />
+    <div class="containerbox">
+      <header>
+        <form id="form-city">
+          <input type="text" placeholder="Enter a city.." class="city"/ required
+          id="search-for-city">
+          <input type="submit" value="Search" class="button" />
+        </form>
+      </header>
+      <hr />
+      <main>
+        <div class="forecast">
+          <div>
+            <h1 id="mainCity">Paris</h1>
+
+            <p class="weatherDetails">
+              <span id="realTime">Saturday 15:32</span> , moderate rain
+              <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.8km/h</strong>
+            </p>
+          </div>
+          <span class="emoji">🌞</span>
+          <span id="celcious">24</span> <span class="unit">°C</span>
+        </div>
+      </main>
+      <hr />
+
+      <footer>
+        <div class="coder">
+          This Project was coded by
+          <a href="https://www.instagram.com/armorofpetals_/" target="_blank"
+            >Nadia Bouli</a
+          >
+          and is
+          <a href="https://github.com/" target="_blank">on github</a> and
+          <a href="https://www.netlify.com/" target="_blank"
+            >hosted on Netlify</a
+          >
+        </div>
+      </footer>
+    </div>
+    <script src="src/week4homework.js"></script>
+  </body>
+</html>

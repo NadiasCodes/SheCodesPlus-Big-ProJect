@@ -1,0 +1,90 @@
+body {
+  background-color: #9b97b22a;
+}
+
+hr {
+  margin: 25px;
+  opacity: 0.1;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+
+a {
+  color: #b9a9e0;
+  font-weight: bolder;
+}
+
+.containerbox {
+  border: 1px solid white;
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 40px;
+  border-radius: 15px;
+}
+.city {
+  border: 1px solid transparent;
+  background-color: #f9f7fe;
+  width: 420px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 10px;
+
+  margin-left: 9px;
+  margin-right: 3px;
+  font-size: 17px;
+}
+.button {
+  margin: 0 auto;
+  padding: 18px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+div .weatherDetails,
+.realTime,
+footer {
+  font-family: "Roboto", sans-serif;
+
+  color: rgba(33, 46, 66, 0.486);
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 24x;
+}
+.forecast {
+  display: flex;
+  justify-content: space-between;
+}
+.weatherDetails,
+strong {
+  color: #885DF1;
+}
+
+#celcious {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  font-weight: 900;
+}
+.emoji {
+  font-size: 40px;
+  position: relative;
+  left: 64px;
+  top: 18px;
+}
+
+.unit {
+  font-size: 31px;
+  position: relative;
+  right: 66px;
+  top: 08px;
+}
